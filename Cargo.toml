@@ -1,0 +1,16 @@
+[package]
+name = "advent"
+version = "0.1.0"
+authors = ["Nathan West <Lucretiel@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+regex = "1.0.6"
+lazy_static = "1.2.0"
+joinery = "1.2.2"
+rayon = "1.0.3"
+gridly = "0.5.2"
+gridly_grids = {version = "0.2.0", features = ["generations"]}
+generations = "1.0.1"
+jemallocator = "0.3.2"
+lazy_format = "1.7.4"
